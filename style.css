@@ -1,0 +1,130 @@
+body {
+    font-family: 'Libre Baskerville', serif;
+
+}
+
+.introduce-area {
+    background-image: url(images/1st-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 584px;
+}
+
+.introduce-texts {
+    text-align: center;
+    color: white;
+}
+
+.introduce-texts h1 {
+    font-size: 40px;
+    margin-top: -7px;
+}
+
+.introduce-texts p {
+    margin-top: 43px;
+    color: aqua;
+}
+
+.donate-button {
+    font-size: 16px;
+    background-color: lightblue;
+    border: 1px solid white;
+    padding: 17px 31px;
+    border-radius: 35px;
+    margin-top: 24px;
+}
+
+.taka {
+    display: flex;
+    text-align: center;
+    margin-left: 97px;
+}
+
+.one-hund {
+    border: 1px solid;
+    background-color: lightgray;
+    padding: 33px 34px;
+    margin-right: 98px;
+}
+
+.two-hund {
+    border: 1px solid;
+    background-color: red;
+    padding: 33px 34px;
+    margin-right: 98px;
+}
+
+.five-hund {
+    border: 1px solid;
+    background-color: lightgray;
+    padding: 33px 34px;
+    margin-right: 98px;
+}
+
+.one-thou {
+    border: 1px solid;
+    background-color: lightgray;
+    padding: 33px 34px;
+    margin-right: 98px;
+}
+
+.five-thou {
+    border: 1px solid;
+    background-color: lightgray;
+    padding: 33px 34px;
+    margin-right: 98px;
+}
+
+.about-donation {
+    text-align: center;
+    margin-top: 136px;
+    margin-bottom: 37px;
+}
+
+.about-donation h1 {
+    font-size: 40px;
+}
+
+.else-ammount {
+    text-align: center;
+    color: darkgray;
+    border-bottom: 1px solid lightgray;
+    margin-top: 35px;
+}
+
+.button-item {
+    border: 1px solid tomato;
+    background-color: tomato;
+    padding: 17px 14px;
+    border-radius: 30px;
+    font-size: 23px;
+    margin-left: 44%;
+    margin-top: 15px;
+}
+
+.planing {
+    display: flex;
+}
+
+.donate-paln {
+    text-align: center;
+}
+
+.food-item {
+    border: 1px solid;
+    background-color: lavender;
+    width: 30%;
+}
+
+.shelter-item {
+    border: 1px solid;
+    background-color: darkgray;
+    width: 30%;
+}
+
+.education-item {
+    border: 1px solid;
+    background-color: blanchedalmond;
+
+    width: 30%;
+}
