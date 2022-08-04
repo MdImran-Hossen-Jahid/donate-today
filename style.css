@@ -4,7 +4,7 @@ body {
 }
 
 .introduce-area {
-    background-image: url(images/1st-image.jpg);
+    background-image: url(images/start.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 584px;
@@ -149,4 +149,20 @@ body {
     font-size: 20px;
     text-align: initial;
     margin-left: 135px;
+}
+
+.provide-item {
+    display: flex;
+}
+
+.foods-works {
+    width: 50%;
+}
+
+.food-image {
+    width: 50%;
+}
+
+.food-image img {
+    width: 100%;
 }
