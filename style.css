@@ -104,27 +104,49 @@ body {
 
 .planing {
     display: flex;
+    margin-top: 58px;
 }
 
 .donate-paln {
     text-align: center;
+    margin-top: 144px;
+}
+
+.donate-paln h1 {
+    font-size: 40px;
 }
 
 .food-item {
     border: 1px solid;
     background-color: lavender;
     width: 30%;
+    margin-right: 35px;
+    margin-left: 27px;
 }
 
 .shelter-item {
     border: 1px solid;
     background-color: darkgray;
     width: 30%;
+    margin-right: 35px;
 }
 
 .education-item {
     border: 1px solid;
     background-color: blanchedalmond;
-
     width: 30%;
+}
+
+.works-and-goal {
+    text-align: center;
+}
+
+.works-and-goal h1 {
+    font-size: 45px;
+}
+
+.about-community {
+    font-size: 20px;
+    text-align: initial;
+    margin-left: 135px;
 }
