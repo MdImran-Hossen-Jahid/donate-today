@@ -1,4 +1,6 @@
 body {
+    margin: 0;
+    padding: 0;
     font-family: 'Libre Baskerville', serif;
 
 }
@@ -7,16 +9,17 @@ body {
     background-image: url(images/start.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 584px;
+    height: 747px;
 }
 
 .introduce-texts {
     text-align: center;
     color: white;
+    padding-top: 160px;
 }
 
 .introduce-texts h1 {
-    font-size: 40px;
+    font-size: 60px;
     margin-top: -7px;
 }
 
@@ -37,42 +40,47 @@ body {
 .taka {
     display: flex;
     text-align: center;
-    margin-left: 97px;
+    margin-left: 393px;
 }
 
 .one-hund {
     border: 1px solid;
+    border-radius: 5px;
     background-color: lightgray;
-    padding: 33px 34px;
-    margin-right: 98px;
+    padding: 32px 10px;
+    margin-right: 9px;
 }
 
 .two-hund {
     border: 1px solid;
+    border-radius: 5px;
     background-color: red;
-    padding: 33px 34px;
-    margin-right: 98px;
+    padding: 32px 10px;
+    margin-right: 9px;
 }
 
 .five-hund {
     border: 1px solid;
+    border-radius: 5px;
     background-color: lightgray;
-    padding: 33px 34px;
-    margin-right: 98px;
+    padding: 32px 10px;
+    margin-right: 9px;
 }
 
 .one-thou {
     border: 1px solid;
+    border-radius: 5px;
     background-color: lightgray;
-    padding: 33px 34px;
-    margin-right: 98px;
+    padding: 32px 10px;
+    margin-right: 9px;
 }
 
 .five-thou {
     border: 1px solid;
+    border-radius: 5px;
     background-color: lightgray;
-    padding: 33px 34px;
-    margin-right: 98px;
+    padding: 32px 10px;
+    margin-right: 9px;
 }
 
 .about-donation {
@@ -88,8 +96,13 @@ body {
 .else-ammount {
     text-align: center;
     color: darkgray;
-    border-bottom: 1px solid lightgray;
+
     margin-top: 35px;
+}
+
+hr {
+    width: 500px;
+    margin-bottom: 30px;
 }
 
 .button-item {
@@ -116,33 +129,65 @@ body {
     font-size: 40px;
 }
 
-.food-item {
-    border: 1px solid;
-    background-color: lavender;
-    width: 30%;
-    margin-right: 35px;
-    margin-left: 27px;
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 51px;
 }
 
-.shelter-item {
-    border: 1px solid;
-    background-color: darkgray;
-    width: 30%;
+.food-item {
+    border: 1px solid lavender;
+    border-radius: 10px;
+    background-color: lavender;
+    width: 25%;
     margin-right: 35px;
+    margin-left: 27px;
+    padding: 50px 23px 50px 23px;
+}
+
+
+.shelter-item {
+    border: 1px solid lavender;
+    border-radius: 10px;
+    background-color: darkgray;
+    width: 25%;
+    margin-right: 35px;
+    margin-left: 27px;
+    padding: 50px 23px 50px 23px;
 }
 
 .education-item {
-    border: 1px solid;
+    border: 1px solid lavender;
+    border-radius: 10px;
     background-color: blanchedalmond;
-    width: 30%;
+    width: 25%;
+    margin-right: 35px;
+    margin-left: 27px;
+    padding: 50px 23px 50px 23px;
 }
 
-.works-and-goal {
+.Our-works {
     text-align: center;
+    margin-top: 141px;
 }
 
-.works-and-goal h1 {
+.Our-works h1 {
     font-size: 45px;
+}
+
+.working-style {
+    background-color: beige;
+    margin-right: 111px;
+    margin-left: 111px;
+    padding-bottom: 55px;
+    padding-right: 83px;
+    border-radius: 5px;
+}
+
+.working-style h1 {
+    font-size: 45px;
+    padding-top: 38px;
+    padding-left: 55px;
 }
 
 .about-community {
@@ -153,10 +198,20 @@ body {
 
 .provide-item {
     display: flex;
+    margin-top: 119px;
 }
 
 .foods-works {
     width: 50%;
+}
+
+.foods-works h2 {
+    font-size: 35px;
+}
+
+.foods-works p {
+    margin-right: 32px;
+    font-size: 23px;
 }
 
 .food-image {
@@ -165,4 +220,138 @@ body {
 
 .food-image img {
     width: 100%;
+}
+
+.shelter-planing {
+    display: flex;
+    margin-top: 84px;
+}
+
+.shelter-image {
+    width: 50%;
+}
+
+.shelter-image img {
+    width: 100%;
+}
+
+.shelter-works {
+    width: 50%;
+    padding-left: 55px;
+    text-align: center;
+}
+
+.shelter-works h2 {
+    font-size: 35px;
+}
+
+.shelter-works p {
+    font-size: 23px;
+}
+
+.education-area {
+    display: flex;
+    margin-top: 84px;
+}
+
+.education-works {
+    width: 50%;
+    padding-right: 55px;
+    text-align: center;
+}
+
+.education-image {
+    width: 50%;
+}
+
+.education-image img {
+    width: 100%;
+}
+
+.education-works h2 {
+    font-size: 35px;
+}
+
+.education-works p {
+    font-size: 23px;
+}
+
+.Our-goal {
+    border: 1px solid beige;
+    background-color: beige;
+    margin-top: 110px;
+    margin-left: 18%;
+    width: 50%;
+    padding: 39px 100px 100px 100px;
+    border-radius: 5px;
+}
+
+.Our-goal p {
+    text-align: center;
+    font-size: 21px;
+}
+
+.Our-goal h1 {
+    text-align: center;
+    font-size: 35px;
+}
+
+.Our-goal img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.update-item {
+    margin-top: 153px;
+}
+
+.update-item h1 {
+    font-size: 45px;
+    text-align: center;
+}
+
+.update-item p {
+    font-size: 20px;
+    text-align: center;
+}
+
+.email-item {
+    display: flex;
+    background-color: blanchedalmond;
+    padding: 72px;
+    margin-right: 272px;
+    margin-left: 272px;
+    margin-top: 57px;
+}
+
+input[type="text"] {
+    width: 36%;
+    padding: 10px;
+    margin-left: 129px;
+    border: 1px;
+    border-radius: 3px;
+    background-color: lightgrey;
+}
+
+button.subscribe-button {
+    width: 20%;
+    background-color: tomato;
+    color: white;
+    font-size: 16px;
+    padding: 13px;
+    border: 1px;
+    border-radius: 3px;
+}
+
+.end-item {
+    background-color: darkslategray;
+    text-align: center;
+    margin-top: 154px;
+    padding-top: 28px;
+    padding-bottom: 28px;
+    font-weight: 700;
+}
+
+.end-item h1 {
+    color: cadetblue;
 }
